@@ -75,9 +75,15 @@ ul li {
    gap: 3.8rem;
 }
 
+ul li {
+   gap: 5.4rem;
+   max-width: 450px;
+   align-items: center;
+}
+
 @media (min-width: 700px) {
    body {
-      padding-top: 8rem;
+      padding: 8rem;
    }
    
    main {
@@ -90,9 +96,5 @@ ul li {
       max-width: 484px;
    }
 
-   ul li {
-      gap: 5.4rem;
-      max-width: 450px;
-      align-items: center;
-   }
+   
 }
