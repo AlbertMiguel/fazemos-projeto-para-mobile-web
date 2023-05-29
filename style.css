@@ -18,6 +18,12 @@ body {
 main {
    max-width: 33rem;
    margin: 0 auto;
+   
+   /* display: flex;
+   align-items: center;
+   gap: 10rem;
+   align-content: center;
+   justify-content: space-between; */
 }
 
 p:first-child {
@@ -90,6 +96,10 @@ ul li {
       max-width: 1020px;
       display: flex;
       gap: 10rem;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between;
+      margin-top: 100px;
    }
 
    main > div {
